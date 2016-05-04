@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>PromedioNotas</TITLE>
+	</HEAD>
+	<BODY onload="promedionotas();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20160408-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			function promedionotas() {
+				var a, b, c, promedio;
+				document.write(("Nota1"),'<BR/>');
+				a = Number(prompt());
+				document.write(("Nota2"),'<BR/>');
+				b = Number(prompt());
+				document.write(("Nota3"),'<BR/>');
+				c = Number(prompt());
+				promedio = (a+b+c)/3;
+				if (promedio>=6) {
+					document.write("APROBO, tu promedio: ",promedio,'<BR/>');
+				} else {
+					document.write("REPROBO, tu promedio: ",promedio,'<BR/>');
+				}
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>
